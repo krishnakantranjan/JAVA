@@ -11,6 +11,9 @@ public class Sets {
         set.add(15);
 
         System.out.println(set.contains(20)); // true;
+        set.remove(15);
+
+        System.out.println(set.contains(15));
 
 
         // Constructor
